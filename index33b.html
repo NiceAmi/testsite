@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style33b.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Personnel information system</h1>
+    <div class="container">
+        <label>User Name</label>
+        <input type="text" id="uname" placeholder="Please enter you'r User name:">
+        <label>First Name</label>
+        <input type="text" id="fname" placeholder="Please enter you'r first name:">
+        <label>Last Name</label>
+        <input type="text" id="lname" placeholder="Please enter you'r last name:">
+        <label>Age</label>
+        <input type="text" id="age" placeholder="Please enter you'r age:">
+        <div class="btn">
+            <button onclick="add_users()">Add User</button>
+            <button onclick="show_Users()">Show User</button>
+
+        </div>
+        <div class="loader" id="loader"></div>   
+     </div>
+        <div class="content" id="content"></div>
+
+        
+
+        <script src="../scripts/index33c.js"></script>
+</body>
+
+</html>
